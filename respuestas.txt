@@ -5,3 +5,10 @@ La forma en la que Git maneja las ramificaciones es increíblemente rápida,
 haciendo así de las operaciones de ramificación algo casi instantáneo,
 al igual que el avance o el retroceso entre distintas rama,
 lo cual también es tremendamente rápido
+
+3.- ¿Cuál es la ventaja de reorganizar (rebase)?
+No hay ninguna diferencia en el resultado final de la integración, 
+pero el haberla hecho reorganizando nos deja un registro más claro
+Si examinas el registro de una rama reorganizada, 
+este aparece siempre como un registro lineal: como si todo el trabajo se hubiera realizado en series, 
+aunque realmente se haya hecho en paralelo.
